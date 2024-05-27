@@ -11,47 +11,55 @@ import "./pages/LoginPage";
 import "./pages/ProfilePage";
 import "./pages/RegisterPage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "/home",
-    element: <HomePage />,
-  },
-  {
-    path: "/categories",
-    element: <CategoriesPage />,
-  },
-  {
-    path: "/blogs",
-    element: <BlogsPage />,
-  },
-  {
-    path: "/about",
-    element: <AboutPage />,
-  },
-  {
-    path: "/blog:blogId?",
-    element: <BlogPage />,
-  },
-  {
-    path: "/login",
-    element: <LoginPage />,
-  },
-  {
-    path: "/profile",
-    element: <ProfilePage />,
-  },
-  {
-    path: "/register",
-    element: <RegisterPage />,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <HomePage />,
+//   },
+//   {
+//     path: "/home",
+//     element: <HomePage />,
+//   },
+//   {
+//     path: "/categories",
+//     element: <CategoriesPage />,
+//   },
+//   {
+//     path: "/blogs",
+//     element: <BlogsPage />,
+//   },
+//   {
+//     path: "/about",
+//     element: <AboutPage />,
+//   },
+//   {
+//     path: "/blog:blogId?",
+//     element: <BlogPage />,
+//   },
+//   {
+//     path: "/login",
+//     element: <LoginPage />,
+//   },
+//   {
+//     path: "/profile",
+//     element: <ProfilePage />,
+//   },
+//   {
+//     path: "/register",
+//     element: <RegisterPage />,
+//   },
+// ]);
+
+// function App() {
+//   return <RouterProvider router={router} />;
+// }
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+
+    <HomePage />
+  
+  );
 }
 
 export default App;
